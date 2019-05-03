@@ -1,0 +1,50 @@
+
+	.version 2.3
+	.target sm_20
+	.address_size 64
+	// compiled with /home/f85/adwait/research_bg/software/cuda/open64/lib//be
+	// nvopencc 4.0 built on 2011-05-12
+
+	//-----------------------------------------------------------
+	// Compiling main.cpp3.i (/tmp/ccBI#.2AhNcr)
+	//-----------------------------------------------------------
+
+	//-----------------------------------------------------------
+	// Options:
+	//-----------------------------------------------------------
+	//  Target:ptx, ISA:sm_20, Endian:little, Pointer Size:64
+	//  -O3	(Optimization level)
+	//  -g0	(Debug level)
+	//  -m2	(Report advisories)
+	//-----------------------------------------------------------
+
+	.file	1	"<command-line>"
+	.file	2	"main.cudafe2.gpu"
+	.file	3	"/home/scratch/adwait/gcc-install/lib64/gcc/x86_64-unknown-linux-gnu/4.4.7/include/stddef.h"
+	.file	4	"/home/f85/adwait/research_bg/software/cuda/include/crt/device_runtime.h"
+	.file	5	"/home/f85/adwait/research_bg/software/cuda/include/host_defines.h"
+	.file	6	"/home/f85/adwait/research_bg/software/cuda/include/builtin_types.h"
+	.file	7	"/home/f85/adwait/research_bg/software/cuda/include/device_types.h"
+	.file	8	"/home/f85/adwait/research_bg/software/cuda/include/driver_types.h"
+	.file	9	"/home/f85/adwait/research_bg/software/cuda/include/surface_types.h"
+	.file	10	"/home/f85/adwait/research_bg/software/cuda/include/texture_types.h"
+	.file	11	"/home/f85/adwait/research_bg/software/cuda/include/vector_types.h"
+	.file	12	"/home/f85/adwait/research_bg/software/cuda/include/device_launch_parameters.h"
+	.file	13	"/home/f85/adwait/research_bg/software/cuda/include/crt/storage_class.h"
+	.file	14	"/usr/include/bits/types.h"
+	.file	15	"/usr/include/time.h"
+	.file	16	"/home/f85/adwait/research_bg/software/cuda/include/common_functions.h"
+	.file	17	"/home/f85/adwait/research_bg/software/cuda/include/math_functions.h"
+	.file	18	"/home/f85/adwait/research_bg/software/cuda/include/math_constants.h"
+	.file	19	"/home/f85/adwait/research_bg/software/cuda/include/device_functions.h"
+	.file	20	"/home/f85/adwait/research_bg/software/cuda/include/sm_11_atomic_functions.h"
+	.file	21	"/home/f85/adwait/research_bg/software/cuda/include/sm_12_atomic_functions.h"
+	.file	22	"/home/f85/adwait/research_bg/software/cuda/include/sm_13_double_functions.h"
+	.file	23	"/home/f85/adwait/research_bg/software/cuda/include/sm_20_atomic_functions.h"
+	.file	24	"/home/f85/adwait/research_bg/software/cuda/include/sm_20_intrinsics.h"
+	.file	25	"/home/f85/adwait/research_bg/software/cuda/include/surface_functions.h"
+	.file	26	"/home/f85/adwait/research_bg/software/cuda/include/texture_fetch_functions.h"
+	.file	27	"/home/f85/adwait/research_bg/software/cuda/include/math_functions_dbl_ptx3.h"
+
+
+

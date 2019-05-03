@@ -1,0 +1,5 @@
+./BlackScholes/gpgpu_ptx_sim__BlackScholes > output_BlackScholes.txt &
+./BFS/gpgpu_ptx_sim__BFS ./data/graph65536.txt > output_BFS.txt &
+./RAY/gpgpu_ptx_sim__RAY  256 256 > output_RAY.txt &
+./SCP/gpgpu_ptx_sim__SCP > output_SCP.txt &
+./kmeans/gpgpu_ptx_sim__kmeans -o -i ./data/204800.txt > output_kmeans.txt &

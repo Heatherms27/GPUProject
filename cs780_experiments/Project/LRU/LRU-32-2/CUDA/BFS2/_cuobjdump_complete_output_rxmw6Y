@@ -1,0 +1,504 @@
+
+Fatbin elf code:
+================
+arch = sm_20
+code version = [1,4]
+producer = cuda
+host = linux
+compile_size = 64bit
+identifier = bfs.cu
+
+.section .strtab	STRTAB
+
+.section .shstrtab	STRTAB
+
+.section .symtab	SYMTAB
+ index           value           size      info    other  shndx    name  
+   0               0               0        0        0      0     (null)
+   1               0               0        3        0      1     .shstrtab
+   2               0               0        3        0      2     .strtab
+   3               0               0        3        0      3     .symtab
+   4               0               0        3        0      0     
+   5               0               0        3        0      0     
+   6               0             192        3        0      7     .text._Z7Kernel2PbS_S_S_i
+   7               0               0        3        0      9     .nv.info._Z7Kernel2PbS_S_S_i
+   8               0               0        3        0     10     .nv.info
+   9               0             464        3        0      4     .text._Z6KernelP4NodePiPbS2_S2_S1_i
+  10               0               0        3        0      6     .nv.info._Z6KernelP4NodePiPbS2_S2_S1_i
+  11               0               0        3        0      8     .nv.constant0._Z7Kernel2PbS_S_S_i
+  12               0               0        3        0      5     .nv.constant0._Z6KernelP4NodePiPbS2_S2_S1_i
+  13               0             192       12       10      7     _Z7Kernel2PbS_S_S_i
+  14               0             464       12       10      4     _Z6KernelP4NodePiPbS2_S2_S1_i
+
+
+.nv.constant0._Z6KernelP4NodePiPbS2_S2_S1_i	PROGBITS
+0x00000000  0x00000000  0x00000000  0x00000000  0x00000000  
+0x00000000  0x00000000  0x00000000  0x00000000  
+0x00000000  0x00000000  0x00000000  0x00000000  
+0x00000000  0x00000000  0x00000000  0x00000000  
+0x00000000  0x00000000  0x00000000  0x00000000  
+
+
+
+.nv.constant0._Z7Kernel2PbS_S_S_i	PROGBITS
+0x00000000  0x00000000  0x00000000  0x00000000  0x00000000  
+0x00000000  0x00000000  0x00000000  0x00000000  
+0x00000000  0x00000000  0x00000000  0x00000000  
+0x00000000  0x00000000  0x00000000  0x00000000  
+
+
+
+.text._Z6KernelP4NodePiPbS2_S2_S1_i	PROGBITS
+bar = 0	reg = 15	lmem=0	smem=0
+0x00005de4  0x28004404  0x94001c04  0x2c000000  
+0x84009c04  0x2c000000  0x08001d23  0x40000000  
+0x4001dc23  0x1b0e4001  0x000001e7  0x80000000  
+0x7c031c23  0x7000c004  0xc0019c03  0x48014000  
+0xd0c1dc43  0x48004000  0x00609c25  0x84000000  
+0xfc21dc23  0x190e0000  0x000001e7  0x80000000  
+0x74009c03  0x5800c000  0x8000dde4  0x28004000  
+0x006fdc25  0x94000000  0x08c09c63  0x40000000  
+0x20011c03  0x2007c000  0x90215c43  0x48004000  
+0x00435c85  0x84000000  0x10409c85  0x84000000  
+0x34229c03  0x48000000  0x34a1dc23  0x198e0000  
+0x000001e7  0x80000000  0xa0009de4  0x28004000  
+0x10d0dce3  0x5000c000  0x10d09ca3  0x2005c000  
+0xb030dc43  0x48004000  0x00221c85  0x84000000  
+0x7c825c23  0x7000c004  0x00819c03  0x48014001  
+0x1091dc43  0x48004001  0x00619c25  0x84000000  
+0xfc61dc23  0x1a8e0000  0x400081e7  0x40000002  
+0x7801a003  0x5800c000  0x2003a1e4  0x28004001  
+0x7881e023  0x5800c000  0x18c2e043  0x40000000  
+0x1002a003  0x201dc000  0x30b2e043  0x48004001  
+0x1081a003  0x201dc000  0x0403a1e2  0x18000000  
+0x00a2a085  0x84000000  0x3071e043  0x48004001  
+0xe0822003  0x48014000  0xf0926043  0x48004000  
+0x04a2a003  0x4800c000  0x0062a085  0x94000000  
+0x0083a025  0x94000000  0x0042e085  0x84000000  
+0x1042a085  0x84000000  0x28b2a003  0x48000000  
+0x04d35c03  0x4800c000  0x10209c03  0x4801c000  
+0x34a1dc23  0x1a0e0000  0xfc30dc43  0x48000000  
+0x400001e7  0x4003fffc  0x00001de7  0x80000000  
+
+
+
+.nv.info._Z6KernelP4NodePiPbS2_S2_S1_i	PROGBITS
+	<0x1>
+	Attribute:	EIATTR_CBANK_PARAM_OFFSETS
+	Format:	EIFMT_SVAL
+	Value:	0x0 0x8 0x10 0x18 0x20 0x28 0x30 
+	<0x2>
+	Attribute:	EIATTR_PARAM_CBANK
+	Format:	EIFMT_SVAL
+	Value:	0xc 0x340020 
+	<0x3>
+	Attribute:	EIATTR_CBANK_PARAM_SIZE
+	Format:	EIFMT_HVAL
+	Value:	0x34
+	<0x4>
+	Attribute:	EIATTR_KPARAM_INFO
+	Format:	EIFMT_SVAL
+	Value:	Index : 0xffffffff	Ordinal : 0x6	Offset  : 0x30	Size    : 0x4
+		Pointee's logAlignment : 0x0	Space : 0x0	cbank : 0x1f	Parameter Space : CBANK	
+	<0x5>
+	Attribute:	EIATTR_KPARAM_INFO
+	Format:	EIFMT_SVAL
+	Value:	Index : 0xffffffff	Ordinal : 0x5	Offset  : 0x28	Size    : 0x8
+		Pointee's logAlignment : 0x0	Space : 0x0	cbank : 0x1f	Parameter Space : CBANK	
+	<0x6>
+	Attribute:	EIATTR_KPARAM_INFO
+	Format:	EIFMT_SVAL
+	Value:	Index : 0xffffffff	Ordinal : 0x4	Offset  : 0x20	Size    : 0x8
+		Pointee's logAlignment : 0x0	Space : 0x0	cbank : 0x1f	Parameter Space : CBANK	
+	<0x7>
+	Attribute:	EIATTR_KPARAM_INFO
+	Format:	EIFMT_SVAL
+	Value:	Index : 0xffffffff	Ordinal : 0x3	Offset  : 0x18	Size    : 0x8
+		Pointee's logAlignment : 0x0	Space : 0x0	cbank : 0x1f	Parameter Space : CBANK	
+	<0x8>
+	Attribute:	EIATTR_KPARAM_INFO
+	Format:	EIFMT_SVAL
+	Value:	Index : 0xffffffff	Ordinal : 0x2	Offset  : 0x10	Size    : 0x8
+		Pointee's logAlignment : 0x0	Space : 0x0	cbank : 0x1f	Parameter Space : CBANK	
+	<0x9>
+	Attribute:	EIATTR_KPARAM_INFO
+	Format:	EIFMT_SVAL
+	Value:	Index : 0xffffffff	Ordinal : 0x1	Offset  : 0x8	Size    : 0x8
+		Pointee's logAlignment : 0x0	Space : 0x0	cbank : 0x1f	Parameter Space : CBANK	
+	<0xa>
+	Attribute:	EIATTR_KPARAM_INFO
+	Format:	EIFMT_SVAL
+	Value:	Index : 0xffffffff	Ordinal : 0x0	Offset  : 0x0	Size    : 0x8
+		Pointee's logAlignment : 0x0	Space : 0x0	cbank : 0x1f	Parameter Space : CBANK	
+	<0xb>
+	Attribute:	EIATTR_SYNC_STACK
+	Format:	EIFMT_SVAL
+	Value:	0x21018c 0x20 
+
+
+.text._Z7Kernel2PbS_S_S_i	PROGBITS
+bar = 0	reg = 12	lmem=0	smem=0
+0x00005de4  0x28004404  0x94001c04  0x2c000000  
+0x84009c04  0x2c000000  0x08001d23  0x40000000  
+0x0001dc23  0x1b0e4001  0x000001e7  0x80000000  
+0x7c019c23  0x7000c004  0xa0009c03  0x48014000  
+0xb060dc43  0x48004000  0x00211c25  0x84000000  
+0xfc41dc23  0x190e0000  0x000001e7  0x80000000  
+0x80011c03  0x48014000  0xe0029de4  0x28004000  
+0xf002dde4  0x28004000  0x90615c43  0x48004000  
+0xc0021c03  0x48014000  0x04001de2  0x18000000  
+0xd0625c43  0x48004000  0x00401c25  0x94000000  
+0x00801c25  0x94000000  0x00a01c25  0x94000000  
+0x002fdc25  0x94000000  0x00001de7  0x80000000  
+
+
+
+.nv.info._Z7Kernel2PbS_S_S_i	PROGBITS
+	<0x1>
+	Attribute:	EIATTR_CBANK_PARAM_OFFSETS
+	Format:	EIFMT_SVAL
+	Value:	0x0 0x8 0x10 0x18 0x20 
+	<0x2>
+	Attribute:	EIATTR_PARAM_CBANK
+	Format:	EIFMT_SVAL
+	Value:	0xb 0x240020 
+	<0x3>
+	Attribute:	EIATTR_CBANK_PARAM_SIZE
+	Format:	EIFMT_HVAL
+	Value:	0x24
+	<0x4>
+	Attribute:	EIATTR_KPARAM_INFO
+	Format:	EIFMT_SVAL
+	Value:	Index : 0xffffffff	Ordinal : 0x4	Offset  : 0x20	Size    : 0x4
+		Pointee's logAlignment : 0x0	Space : 0x0	cbank : 0x1f	Parameter Space : CBANK	
+	<0x5>
+	Attribute:	EIATTR_KPARAM_INFO
+	Format:	EIFMT_SVAL
+	Value:	Index : 0xffffffff	Ordinal : 0x3	Offset  : 0x18	Size    : 0x8
+		Pointee's logAlignment : 0x0	Space : 0x0	cbank : 0x1f	Parameter Space : CBANK	
+	<0x6>
+	Attribute:	EIATTR_KPARAM_INFO
+	Format:	EIFMT_SVAL
+	Value:	Index : 0xffffffff	Ordinal : 0x2	Offset  : 0x10	Size    : 0x8
+		Pointee's logAlignment : 0x0	Space : 0x0	cbank : 0x1f	Parameter Space : CBANK	
+	<0x7>
+	Attribute:	EIATTR_KPARAM_INFO
+	Format:	EIFMT_SVAL
+	Value:	Index : 0xffffffff	Ordinal : 0x1	Offset  : 0x8	Size    : 0x8
+		Pointee's logAlignment : 0x0	Space : 0x0	cbank : 0x1f	Parameter Space : CBANK	
+	<0x8>
+	Attribute:	EIATTR_KPARAM_INFO
+	Format:	EIFMT_SVAL
+	Value:	Index : 0xffffffff	Ordinal : 0x0	Offset  : 0x0	Size    : 0x8
+		Pointee's logAlignment : 0x0	Space : 0x0	cbank : 0x1f	Parameter Space : CBANK	
+	<0x9>
+	Attribute:	EIATTR_SYNC_STACK
+	Format:	EIFMT_SVAL
+	Value:	0x20018 0x2 
+
+
+.nv.info	PROGBITS
+	<0x1>
+	Attribute:	EIATTR_MIN_STACK_SIZE
+	Format:	EIFMT_SVAL
+	Value:	function: _Z6KernelP4NodePiPbS2_S2_S1_i(0xe)	min stack size: 0x0
+	<0x2>
+	Attribute:	EIATTR_FRAME_SIZE
+	Format:	EIFMT_SVAL
+	Value:	function: _Z6KernelP4NodePiPbS2_S2_S1_i(0xe)	frame size: 0x0
+	<0x3>
+	Attribute:	EIATTR_MIN_STACK_SIZE
+	Format:	EIFMT_SVAL
+	Value:	function: _Z7Kernel2PbS_S_S_i(0xd)	min stack size: 0x0
+	<0x4>
+	Attribute:	EIATTR_FRAME_SIZE
+	Format:	EIFMT_SVAL
+	Value:	function: _Z7Kernel2PbS_S_S_i(0xd)	frame size: 0x0
+
+	code for sm_20
+		Function : _Z6KernelP4NodePiPbS2_S2_S1_i
+	/*0000*/     /*0x00005de428004404*/ 	MOV R1, c [0x1] [0x100];
+	/*0008*/     /*0x94001c042c000000*/ 	S2R R0, SR_CTAid_X;
+	/*0010*/     /*0x84009c042c000000*/ 	S2R R2, SR_Tid_X;
+	/*0018*/     /*0x08001d2340000000*/ 	ISCADD R0, R0, R2, 0x9;
+	/*0020*/     /*0x4001dc231b0e4001*/ 	ISETP.GE.AND P0, pt, R0, c [0x0] [0x50], pt;
+	/*0028*/     /*0x000001e780000000*/ 	@P0 EXIT;
+	/*0030*/     /*0x7c031c237000c004*/ 	BFE R12, R0, 0x11f;
+	/*0038*/     /*0xc0019c0348014000*/ 	IADD R6.CC, R0, c [0x0] [0x30];
+	/*0040*/     /*0xd0c1dc4348004000*/ 	IADD.X R7, R12, c [0x0] [0x34];
+	/*0048*/     /*0x00609c2584000000*/ 	LD.E.S8 R2, [R6];
+	/*0050*/     /*0xfc21dc23190e0000*/ 	ISETP.EQ.AND P0, pt, R2, RZ, pt;
+	/*0058*/     /*0x000001e780000000*/ 	@P0 EXIT;
+	/*0060*/     /*0x74009c035800c000*/ 	SHR.U32.W R2, R0, 0x1d;
+	/*0068*/     /*0x8000dde428004000*/ 	MOV R3, c [0x0] [0x20];
+	/*0070*/     /*0x006fdc2594000000*/ 	ST.E.S8 [R6], RZ;
+	/*0078*/     /*0x08c09c6340000000*/ 	ISCADD R2, R12, R2, 0x3;
+	/*0080*/     /*0x20011c032007c000*/ 	IMAD.U32.U32 R4.CC, R0, 0x8, R3;
+	/*0088*/     /*0x90215c4348004000*/ 	IADD.X R5, R2, c [0x0] [0x24];
+	/*0090*/     /*0x00435c8584000000*/ 	LD.E R13, [R4];
+	/*0098*/     /*0x10409c8584000000*/ 	LD.E R2, [R4+0x4];
+	/*00a0*/     /*0x34229c0348000000*/ 	IADD R10, R2, R13;
+	/*00a8*/     /*0x34a1dc23198e0000*/ 	ISETP.LE.AND P0, pt, R10, R13, pt;
+	/*00b0*/     /*0x000001e780000000*/ 	@P0 EXIT;
+	/*00b8*/     /*0xa0009de428004000*/ 	MOV R2, c [0x0] [0x28];
+	/*00c0*/     /*0x10d0dce35000c000*/ 	IMUL.HI R3, R13, 0x4;
+	/*00c8*/     /*0x10d09ca32005c000*/ 	IMAD R2.CC, R13, 0x4, R2;
+	/*00d0*/     /*0xb030dc4348004000*/ 	IADD.X R3, R3, c [0x0] [0x2c];
+	/*00d8*/     /*0x00221c8584000000*/ 	LD.E R8, [R2];
+	/*00e0*/     /*0x7c825c237000c004*/ 	BFE R9, R8, 0x11f;
+	/*00e8*/     /*0x00819c0348014001*/ 	IADD R6.CC, R8, c [0x0] [0x40];
+	/*00f0*/     /*0x1091dc4348004001*/ 	IADD.X R7, R9, c [0x0] [0x44];
+	/*00f8*/     /*0x00619c2584000000*/ 	LD.E.S8 R6, [R6];
+	/*0100*/     /*0xfc61dc231a8e0000*/ 	ISETP.NE.AND P0, pt, R6, RZ, pt;
+	/*0108*/     /*0x400081e740000002*/ 	@P0 BRA.U 0x1a0;
+	/*0110*/     /*0x7801a0035800c000*/ 	@!P0 SHR.U32.W R6, R0, 0x1e;
+	/*0118*/     /*0x2003a1e428004001*/ 	@!P0 MOV R14, c [0x0] [0x48];
+	/*0120*/     /*0x7881e0235800c000*/ 	@!P0 SHR.W R7, R8, 0x1e;
+	/*0128*/     /*0x18c2e04340000000*/ 	@!P0 ISCADD R11, R12, R6, 0x2;
+	/*0130*/     /*0x1002a003201dc000*/ 	@!P0 IMAD.U32.U32 R10.CC, R0, 0x4, R14;
+	/*0138*/     /*0x30b2e04348004001*/ 	@!P0 IADD.X R11, R11, c [0x0] [0x4c];
+	/*0140*/     /*0x1081a003201dc000*/ 	@!P0 IMAD.U32.U32 R6.CC, R8, 0x4, R14;
+	/*0148*/     /*0x0403a1e218000000*/ 	@!P0 MOV32I R14, 0x1;
+	/*0150*/     /*0x00a2a08584000000*/ 	@!P0 LD.E R10, [R10];
+	/*0158*/     /*0x3071e04348004001*/ 	@!P0 IADD.X R7, R7, c [0x0] [0x4c];
+	/*0160*/     /*0xe082200348014000*/ 	@!P0 IADD R8.CC, R8, c [0x0] [0x38];
+	/*0168*/     /*0xf092604348004000*/ 	@!P0 IADD.X R9, R9, c [0x0] [0x3c];
+	/*0170*/     /*0x04a2a0034800c000*/ 	@!P0 IADD R10, R10, 0x1;
+	/*0178*/     /*0x0062a08594000000*/ 	@!P0 ST.E [R6], R10;
+	/*0180*/     /*0x0083a02594000000*/ 	@!P0 ST.E.S8 [R8], R14;
+	/*0188*/     /*0x0042e08584000000*/ 	@!P0 LD.E R11, [R4];
+	/*0190*/     /*0x1042a08584000000*/ 	@!P0 LD.E R10, [R4+0x4];
+	/*0198*/     /*0x28b2a00348000000*/ 	@!P0 IADD R10, R11, R10;
+	/*01a0*/     /*0x04d35c034800c000*/ 	IADD R13, R13, 0x1;
+	/*01a8*/     /*0x10209c034801c000*/ 	IADD R2.CC, R2, 0x4;
+	/*01b0*/     /*0x34a1dc231a0e0000*/ 	ISETP.GT.AND P0, pt, R10, R13, pt;
+	/*01b8*/     /*0xfc30dc4348000000*/ 	IADD.X R3, R3, RZ;
+	/*01c0*/     /*0x400001e74003fffc*/ 	@P0 BRA 0xd8;
+	/*01c8*/     /*0x00001de780000000*/ 	EXIT;
+		..............................................
+
+
+		Function : _Z7Kernel2PbS_S_S_i
+	/*0000*/     /*0x00005de428004404*/ 	MOV R1, c [0x1] [0x100];
+	/*0008*/     /*0x94001c042c000000*/ 	S2R R0, SR_CTAid_X;
+	/*0010*/     /*0x84009c042c000000*/ 	S2R R2, SR_Tid_X;
+	/*0018*/     /*0x08001d2340000000*/ 	ISCADD R0, R0, R2, 0x9;
+	/*0020*/     /*0x0001dc231b0e4001*/ 	ISETP.GE.AND P0, pt, R0, c [0x0] [0x40], pt;
+	/*0028*/     /*0x000001e780000000*/ 	@P0 EXIT;
+	/*0030*/     /*0x7c019c237000c004*/ 	BFE R6, R0, 0x11f;
+	/*0038*/     /*0xa0009c0348014000*/ 	IADD R2.CC, R0, c [0x0] [0x28];
+	/*0040*/     /*0xb060dc4348004000*/ 	IADD.X R3, R6, c [0x0] [0x2c];
+	/*0048*/     /*0x00211c2584000000*/ 	LD.E.S8 R4, [R2];
+	/*0050*/     /*0xfc41dc23190e0000*/ 	ISETP.EQ.AND P0, pt, R4, RZ, pt;
+	/*0058*/     /*0x000001e780000000*/ 	@P0 EXIT;
+	/*0060*/     /*0x80011c0348014000*/ 	IADD R4.CC, R0, c [0x0] [0x20];
+	/*0068*/     /*0xe0029de428004000*/ 	MOV R10, c [0x0] [0x38];
+	/*0070*/     /*0xf002dde428004000*/ 	MOV R11, c [0x0] [0x3c];
+	/*0078*/     /*0x90615c4348004000*/ 	IADD.X R5, R6, c [0x0] [0x24];
+	/*0080*/     /*0xc0021c0348014000*/ 	IADD R8.CC, R0, c [0x0] [0x30];
+	/*0088*/     /*0x04001de218000000*/ 	MOV32I R0, 0x1;
+	/*0090*/     /*0xd0625c4348004000*/ 	IADD.X R9, R6, c [0x0] [0x34];
+	/*0098*/     /*0x00401c2594000000*/ 	ST.E.S8 [R4], R0;
+	/*00a0*/     /*0x00801c2594000000*/ 	ST.E.S8 [R8], R0;
+	/*00a8*/     /*0x00a01c2594000000*/ 	ST.E.S8 [R10], R0;
+	/*00b0*/     /*0x002fdc2594000000*/ 	ST.E.S8 [R2], RZ;
+	/*00b8*/     /*0x00001de780000000*/ 	EXIT;
+		....................................
+
+
+
+Fatbin ptx code:
+================
+arch = sm_20
+code version = [2,3]
+producer = cuda
+host = linux
+compile_size = 64bit
+identifier = bfs.cu
+	.version 2.3
+	.target sm_20
+	.address_size 64
+	// compiled with /home/f85/adwait/research_bg/software/cuda/open64/lib//be
+	// nvopencc 4.0 built on 2011-05-12
+
+	//-----------------------------------------------------------
+	// Compiling bfs.cpp3.i (/tmp/ccBI#.9JJDaO)
+	//-----------------------------------------------------------
+
+	//-----------------------------------------------------------
+	// Options:
+	//-----------------------------------------------------------
+	//  Target:ptx, ISA:sm_20, Endian:little, Pointer Size:64
+	//  -O3	(Optimization level)
+	//  -g0	(Debug level)
+	//  -m2	(Report advisories)
+	//-----------------------------------------------------------
+
+	.file	1	"<command-line>"
+	.file	2	"bfs.cudafe2.gpu"
+	.file	3	"bfs.cu"
+	.file	4	"/home/scratch/adwait/gcc-install/lib64/gcc/x86_64-unknown-linux-gnu/4.4.7/include/stddef.h"
+	.file	5	"/home/f85/adwait/research_bg/software/cuda/include/crt/device_runtime.h"
+	.file	6	"/home/f85/adwait/research_bg/software/cuda/include/host_defines.h"
+	.file	7	"/home/f85/adwait/research_bg/software/cuda/include/builtin_types.h"
+	.file	8	"/home/f85/adwait/research_bg/software/cuda/include/device_types.h"
+	.file	9	"/home/f85/adwait/research_bg/software/cuda/include/driver_types.h"
+	.file	10	"/home/f85/adwait/research_bg/software/cuda/include/surface_types.h"
+	.file	11	"/home/f85/adwait/research_bg/software/cuda/include/texture_types.h"
+	.file	12	"/home/f85/adwait/research_bg/software/cuda/include/vector_types.h"
+	.file	13	"/home/f85/adwait/research_bg/software/cuda/include/device_launch_parameters.h"
+	.file	14	"/home/f85/adwait/research_bg/software/cuda/include/crt/storage_class.h"
+	.file	15	"/usr/include/bits/types.h"
+	.file	16	"/usr/include/time.h"
+	.file	17	"kernel.cu"
+	.file	18	"kernel2.cu"
+	.file	19	"/home/f85/adwait/research_bg/software/cuda/include/common_functions.h"
+	.file	20	"/home/f85/adwait/research_bg/software/cuda/include/math_functions.h"
+	.file	21	"/home/f85/adwait/research_bg/software/cuda/include/math_constants.h"
+	.file	22	"/home/f85/adwait/research_bg/software/cuda/include/device_functions.h"
+	.file	23	"/home/f85/adwait/research_bg/software/cuda/include/sm_11_atomic_functions.h"
+	.file	24	"/home/f85/adwait/research_bg/software/cuda/include/sm_12_atomic_functions.h"
+	.file	25	"/home/f85/adwait/research_bg/software/cuda/include/sm_13_double_functions.h"
+	.file	26	"/home/f85/adwait/research_bg/software/cuda/include/sm_20_atomic_functions.h"
+	.file	27	"/home/f85/adwait/research_bg/software/cuda/include/sm_20_intrinsics.h"
+	.file	28	"/home/f85/adwait/research_bg/software/cuda/include/surface_functions.h"
+	.file	29	"/home/f85/adwait/research_bg/software/cuda/include/texture_fetch_functions.h"
+	.file	30	"/home/f85/adwait/research_bg/software/cuda/include/math_functions_dbl_ptx3.h"
+
+
+	.entry _Z6KernelP4NodePiPbS2_S2_S1_i (
+		.param .u64 __cudaparm__Z6KernelP4NodePiPbS2_S2_S1_i_g_graph_nodes,
+		.param .u64 __cudaparm__Z6KernelP4NodePiPbS2_S2_S1_i_g_graph_edges,
+		.param .u64 __cudaparm__Z6KernelP4NodePiPbS2_S2_S1_i_g_graph_mask,
+		.param .u64 __cudaparm__Z6KernelP4NodePiPbS2_S2_S1_i_g_updating_graph_mask,
+		.param .u64 __cudaparm__Z6KernelP4NodePiPbS2_S2_S1_i_g_graph_visited,
+		.param .u64 __cudaparm__Z6KernelP4NodePiPbS2_S2_S1_i_g_cost,
+		.param .s32 __cudaparm__Z6KernelP4NodePiPbS2_S2_S1_i_no_of_nodes)
+	{
+	.reg .u32 %r<22>;
+	.reg .u64 %rd<22>;
+	.reg .pred %p<7>;
+	.loc	17	22	0
+$LDWbegin__Z6KernelP4NodePiPbS2_S2_S1_i:
+	mov.u32 	%r1, %ctaid.x;
+	mul.lo.u32 	%r2, %r1, 512;
+	mov.u32 	%r3, %tid.x;
+	add.u32 	%r4, %r3, %r2;
+	ld.param.s32 	%r5, [__cudaparm__Z6KernelP4NodePiPbS2_S2_S1_i_no_of_nodes];
+	setp.le.s32 	%p1, %r5, %r4;
+	@%p1 bra 	$Lt_0_5122;
+	cvt.s64.s32 	%rd1, %r4;
+	ld.param.u64 	%rd2, [__cudaparm__Z6KernelP4NodePiPbS2_S2_S1_i_g_graph_mask];
+	add.u64 	%rd3, %rd1, %rd2;
+	ld.global.s8 	%r6, [%rd3+0];
+	mov.u32 	%r7, 0;
+	setp.eq.s32 	%p2, %r6, %r7;
+	@%p2 bra 	$Lt_0_5122;
+	.loc	17	27	0
+	mov.s32 	%r8, 0;
+	st.global.s8 	[%rd3+0], %r8;
+	.loc	17	28	0
+	ld.param.u64 	%rd4, [__cudaparm__Z6KernelP4NodePiPbS2_S2_S1_i_g_graph_nodes];
+	mul.lo.u64 	%rd5, %rd1, 8;
+	add.u64 	%rd6, %rd4, %rd5;
+	ld.global.s32 	%r9, [%rd6+0];
+	mov.s32 	%r10, %r9;
+	ld.global.s32 	%r11, [%rd6+4];
+	add.s32 	%r12, %r11, %r9;
+	setp.le.s32 	%p3, %r12, %r9;
+	@%p3 bra 	$Lt_0_5122;
+	ld.param.u64 	%rd7, [__cudaparm__Z6KernelP4NodePiPbS2_S2_S1_i_g_graph_edges];
+	cvt.s64.s32 	%rd8, %r9;
+	mul.wide.s32 	%rd9, %r9, 4;
+	add.u64 	%rd10, %rd7, %rd9;
+	ld.param.u64 	%rd11, [__cudaparm__Z6KernelP4NodePiPbS2_S2_S1_i_g_graph_visited];
+$Lt_0_4098:
+ //<loop> Loop body line 28, nesting depth: 1, estimated iterations: unknown
+	.loc	17	30	0
+	ld.global.s32 	%r13, [%rd10+0];
+	cvt.s64.s32 	%rd12, %r13;
+	add.u64 	%rd13, %rd12, %rd11;
+	ld.global.s8 	%r14, [%rd13+0];
+	mov.u32 	%r15, 0;
+	setp.ne.s32 	%p4, %r14, %r15;
+	@%p4 bra 	$Lt_0_4354;
+	.loc	17	33	0
+	ld.param.u64 	%rd14, [__cudaparm__Z6KernelP4NodePiPbS2_S2_S1_i_g_cost];
+	mul.lo.u64 	%rd15, %rd1, 4;
+	add.u64 	%rd16, %rd14, %rd15;
+	ld.global.s32 	%r16, [%rd16+0];
+	add.s32 	%r17, %r16, 1;
+	mul.lo.u64 	%rd17, %rd12, 4;
+	add.u64 	%rd18, %rd14, %rd17;
+	st.global.s32 	[%rd18+0], %r17;
+	.loc	17	34	0
+	mov.s32 	%r18, 1;
+	ld.param.u64 	%rd19, [__cudaparm__Z6KernelP4NodePiPbS2_S2_S1_i_g_updating_graph_mask];
+	add.u64 	%rd20, %rd12, %rd19;
+	st.global.s8 	[%rd20+0], %r18;
+	ld.global.s32 	%r19, [%rd6+0];
+	ld.global.s32 	%r20, [%rd6+4];
+	add.s32 	%r12, %r19, %r20;
+$Lt_0_4354:
+	.loc	17	28	0
+	add.s32 	%r10, %r10, 1;
+	add.u64 	%rd10, %rd10, 4;
+	setp.gt.s32 	%p5, %r12, %r10;
+	@%p5 bra 	$Lt_0_4098;
+$Lt_0_5122:
+$L_0_3074:
+	.loc	17	38	0
+	exit;
+$LDWend__Z6KernelP4NodePiPbS2_S2_S1_i:
+	} // _Z6KernelP4NodePiPbS2_S2_S1_i
+
+	.entry _Z7Kernel2PbS_S_S_i (
+		.param .u64 __cudaparm__Z7Kernel2PbS_S_S_i_g_graph_mask,
+		.param .u64 __cudaparm__Z7Kernel2PbS_S_S_i_g_updating_graph_mask,
+		.param .u64 __cudaparm__Z7Kernel2PbS_S_S_i_g_graph_visited,
+		.param .u64 __cudaparm__Z7Kernel2PbS_S_S_i_g_over,
+		.param .s32 __cudaparm__Z7Kernel2PbS_S_S_i_no_of_nodes)
+	{
+	.reg .u32 %r<13>;
+	.reg .u64 %rd<10>;
+	.reg .pred %p<4>;
+	.loc	18	22	0
+$LDWbegin__Z7Kernel2PbS_S_S_i:
+	mov.u32 	%r1, %ctaid.x;
+	mul.lo.u32 	%r2, %r1, 512;
+	mov.u32 	%r3, %tid.x;
+	add.u32 	%r4, %r3, %r2;
+	ld.param.s32 	%r5, [__cudaparm__Z7Kernel2PbS_S_S_i_no_of_nodes];
+	setp.le.s32 	%p1, %r5, %r4;
+	@%p1 bra 	$Lt_1_1794;
+	cvt.s64.s32 	%rd1, %r4;
+	ld.param.u64 	%rd2, [__cudaparm__Z7Kernel2PbS_S_S_i_g_updating_graph_mask];
+	add.u64 	%rd3, %rd1, %rd2;
+	ld.global.s8 	%r6, [%rd3+0];
+	mov.u32 	%r7, 0;
+	setp.eq.s32 	%p2, %r6, %r7;
+	@%p2 bra 	$Lt_1_1794;
+	.loc	18	28	0
+	mov.s32 	%r8, 1;
+	ld.param.u64 	%rd4, [__cudaparm__Z7Kernel2PbS_S_S_i_g_graph_mask];
+	add.u64 	%rd5, %rd1, %rd4;
+	st.global.s8 	[%rd5+0], %r8;
+	.loc	18	29	0
+	mov.s32 	%r9, 1;
+	ld.param.u64 	%rd6, [__cudaparm__Z7Kernel2PbS_S_S_i_g_graph_visited];
+	add.u64 	%rd7, %rd1, %rd6;
+	st.global.s8 	[%rd7+0], %r9;
+	.loc	18	30	0
+	mov.s32 	%r10, 1;
+	ld.param.u64 	%rd8, [__cudaparm__Z7Kernel2PbS_S_S_i_g_over];
+	st.global.s8 	[%rd8+0], %r10;
+	.loc	18	31	0
+	mov.s32 	%r11, 0;
+	st.global.s8 	[%rd3+0], %r11;
+$Lt_1_1794:
+$L_1_1282:
+	.loc	18	33	0
+	exit;
+$LDWend__Z7Kernel2PbS_S_S_i:
+	} // _Z7Kernel2PbS_S_S_i
+

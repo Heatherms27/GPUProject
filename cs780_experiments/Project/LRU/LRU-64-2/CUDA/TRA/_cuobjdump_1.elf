@@ -1,0 +1,180 @@
+
+
+.section .strtab	STRTAB
+
+.section .shstrtab	STRTAB
+
+.section .symtab	SYMTAB
+ index           value           size      info    other  shndx    name  
+   0               0               0        0        0      0     (null)
+   1               0               0        3        0      1     .shstrtab
+   2               0               0        3        0      2     .strtab
+   3               0               0        3        0      3     .symtab
+   4               0               0        3        0      0     
+   5               0               0        3        0      0     
+   6               0             176        3        0      8     .text._Z15transpose_naivePfS_ii
+   7               0               0        3        0     10     .nv.info._Z15transpose_naivePfS_ii
+   8               0               0        3        0     11     .nv.info
+   9               0             304        3        0      4     .text._Z9transposePfS_ii
+  10               0               0        3        0      6     .nv.info._Z9transposePfS_ii
+  11               0               0        3        0      7     .nv.shared._Z9transposePfS_ii
+  12               0               0        3        0      5     .nv.constant0._Z9transposePfS_ii
+  13               0               0        3        0      9     .nv.constant0._Z15transpose_naivePfS_ii
+  14               0             176       12       10      8     _Z15transpose_naivePfS_ii
+  15               0             304       12       10      4     _Z9transposePfS_ii
+
+
+.nv.constant0._Z9transposePfS_ii	PROGBITS
+0x00000000  0x00000000  0x00000000  0x00000000  0x00000000  
+0x00000000  0x00000000  0x00000000  0x00000000  
+0x00000000  0x00000000  0x00000000  0x00000000  
+0x00000000  
+
+
+.nv.shared._Z9transposePfS_ii	NOBITS
+   No data to be dumped. 
+
+
+.nv.constant0._Z15transpose_naivePfS_ii	PROGBITS
+0x00000000  0x00000000  0x00000000  0x00000000  0x00000000  
+0x00000000  0x00000000  0x00000000  0x00000000  
+0x00000000  0x00000000  0x00000000  0x00000000  
+0x00000000  
+
+
+.text._Z9transposePfS_ii	PROGBITS
+bar = 1	reg = 9	lmem=0	smem=1088
+0x00005de4  0x28004404  0x94001c04  0x2c000000  
+0x98009c04  0x2c000000  0x8400dc04  0x2c000000  
+0x88015c04  0x2c000000  0x10001e03  0x6000c000  
+0x10209e03  0x6000c000  0x0c011c03  0x48000000  
+0x14219c03  0x48000000  0xc041dc03  0x188e4000  
+0xd061dc03  0x18804000  0x2000a1e7  0x40000001  
+0xc0610003  0x20084000  0x44520003  0x2006c000  
+0xa00181e4  0x28004000  0x08820003  0x6000c000  
+0x10418003  0x200dc000  0x10410043  0x5000c000  
+0xb041c043  0x48004000  0x00610085  0x84000000  
+0x00810085  0xc9000000  0xfc1fdc03  0x207e0000  
+0xffffdc04  0x50ee0000  0x14001c03  0x48000000  
+0x0c209c03  0x48000000  0xc001dc03  0x188e4000  
+0xd021dc03  0x18804000  0x000021e7  0x80000000  
+0x4430dc03  0x200ac000  0xd0001c03  0x20044000  
+0x80009de4  0x28004000  0x0830dc03  0x6000c000  
+0x10011c03  0x2005c000  0x10009c43  0x5000c000  
+0x00301c85  0xc1000000  0x90215c43  0x48004000  
+0x00401c85  0x94000000  0x00001de7  0x80000000  
+
+
+
+.nv.info._Z9transposePfS_ii	PROGBITS
+	<0x1>
+	Attribute:	EIATTR_CBANK_PARAM_OFFSETS
+	Format:	EIFMT_SVAL
+	Value:	0x0 0x8 0x10 0x14 
+	<0x2>
+	Attribute:	EIATTR_PARAM_CBANK
+	Format:	EIFMT_SVAL
+	Value:	0xc 0x180020 
+	<0x3>
+	Attribute:	EIATTR_CBANK_PARAM_SIZE
+	Format:	EIFMT_HVAL
+	Value:	0x18
+	<0x4>
+	Attribute:	EIATTR_KPARAM_INFO
+	Format:	EIFMT_SVAL
+	Value:	Index : 0xffffffff	Ordinal : 0x3	Offset  : 0x14	Size    : 0x4
+		Pointee's logAlignment : 0x0	Space : 0x0	cbank : 0x1f	Parameter Space : CBANK	
+	<0x5>
+	Attribute:	EIATTR_KPARAM_INFO
+	Format:	EIFMT_SVAL
+	Value:	Index : 0xffffffff	Ordinal : 0x2	Offset  : 0x10	Size    : 0x4
+		Pointee's logAlignment : 0x0	Space : 0x0	cbank : 0x1f	Parameter Space : CBANK	
+	<0x6>
+	Attribute:	EIATTR_KPARAM_INFO
+	Format:	EIFMT_SVAL
+	Value:	Index : 0xffffffff	Ordinal : 0x1	Offset  : 0x8	Size    : 0x8
+		Pointee's logAlignment : 0x0	Space : 0x0	cbank : 0x1f	Parameter Space : CBANK	
+	<0x7>
+	Attribute:	EIATTR_KPARAM_INFO
+	Format:	EIFMT_SVAL
+	Value:	Index : 0xffffffff	Ordinal : 0x0	Offset  : 0x0	Size    : 0x8
+		Pointee's logAlignment : 0x0	Space : 0x0	cbank : 0x1f	Parameter Space : CBANK	
+	<0x8>
+	Attribute:	EIATTR_SYNC_STACK
+	Format:	EIFMT_SVAL
+	Value:	0x20018 0x1 
+
+
+.text._Z15transpose_naivePfS_ii	PROGBITS
+bar = 0	reg = 8	lmem=0	smem=0
+0x00005de4  0x28004404  0x94001c04  0x2c000000  
+0x8400dc04  0x2c000000  0x98009c04  0x2c000000  
+0x88011c04  0x2c000000  0x20001c03  0x20064000  
+0x30209c03  0x20084000  0xc001dc03  0x188e4000  
+0xd021dc03  0x18804000  0x000021e7  0x80000000  
+0xc020dc03  0x20004000  0x10015de2  0x18000000  
+0xd0001c03  0x20044000  0x10311c43  0x5000c000  
+0xa0319c03  0x200b8000  0xb041dc43  0x48004000  
+0x80011c03  0x200b8000  0x10001c43  0x5000c000  
+0x0060dc85  0x84000000  0x90015c43  0x48004000  
+0x0040dc85  0x94000000  0x00001de7  0x80000000  
+
+
+
+.nv.info._Z15transpose_naivePfS_ii	PROGBITS
+	<0x1>
+	Attribute:	EIATTR_CBANK_PARAM_OFFSETS
+	Format:	EIFMT_SVAL
+	Value:	0x0 0x8 0x10 0x14 
+	<0x2>
+	Attribute:	EIATTR_PARAM_CBANK
+	Format:	EIFMT_SVAL
+	Value:	0xd 0x180020 
+	<0x3>
+	Attribute:	EIATTR_CBANK_PARAM_SIZE
+	Format:	EIFMT_HVAL
+	Value:	0x18
+	<0x4>
+	Attribute:	EIATTR_KPARAM_INFO
+	Format:	EIFMT_SVAL
+	Value:	Index : 0xffffffff	Ordinal : 0x3	Offset  : 0x14	Size    : 0x4
+		Pointee's logAlignment : 0x0	Space : 0x0	cbank : 0x1f	Parameter Space : CBANK	
+	<0x5>
+	Attribute:	EIATTR_KPARAM_INFO
+	Format:	EIFMT_SVAL
+	Value:	Index : 0xffffffff	Ordinal : 0x2	Offset  : 0x10	Size    : 0x4
+		Pointee's logAlignment : 0x0	Space : 0x0	cbank : 0x1f	Parameter Space : CBANK	
+	<0x6>
+	Attribute:	EIATTR_KPARAM_INFO
+	Format:	EIFMT_SVAL
+	Value:	Index : 0xffffffff	Ordinal : 0x1	Offset  : 0x8	Size    : 0x8
+		Pointee's logAlignment : 0x0	Space : 0x0	cbank : 0x1f	Parameter Space : CBANK	
+	<0x7>
+	Attribute:	EIATTR_KPARAM_INFO
+	Format:	EIFMT_SVAL
+	Value:	Index : 0xffffffff	Ordinal : 0x0	Offset  : 0x0	Size    : 0x8
+		Pointee's logAlignment : 0x0	Space : 0x0	cbank : 0x1f	Parameter Space : CBANK	
+	<0x8>
+	Attribute:	EIATTR_SYNC_STACK
+	Format:	EIFMT_SVAL
+	Value:	0x1000c 0x1 
+
+
+.nv.info	PROGBITS
+	<0x1>
+	Attribute:	EIATTR_MIN_STACK_SIZE
+	Format:	EIFMT_SVAL
+	Value:	function: _Z9transposePfS_ii(0xf)	min stack size: 0x0
+	<0x2>
+	Attribute:	EIATTR_FRAME_SIZE
+	Format:	EIFMT_SVAL
+	Value:	function: _Z9transposePfS_ii(0xf)	frame size: 0x0
+	<0x3>
+	Attribute:	EIATTR_MIN_STACK_SIZE
+	Format:	EIFMT_SVAL
+	Value:	function: _Z15transpose_naivePfS_ii(0xe)	min stack size: 0x0
+	<0x4>
+	Attribute:	EIATTR_FRAME_SIZE
+	Format:	EIFMT_SVAL
+	Value:	function: _Z15transpose_naivePfS_ii(0xe)	frame size: 0x0
+
